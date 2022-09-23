@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+.li {
+  vertical-align: top;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.button {
+  /* background-color: rgb(38, 38, 122); */
+  color: azure;
+  width: 10%;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+}
+.container {
+  height: 200px;
+  width:90%;
+  margin: 5%;
+  position: relative;
+  /* border: 1px solid rgb(119, 112, 156); */
+}
+.borderInit{
+  border:'1px solid rgb(119, 112, 156)'
+}
+.borderChange{
+  border:'1px solid green'
+}
