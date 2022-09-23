@@ -26,8 +26,10 @@ const DisplayList = () => {
   }
   return (
     <div className='container' style={{border: borderColor}}>
-      <h1 style={{ ...headInit, background:header}}>List of Facts</h1>
-      <li className='li'>{data.fact}</li>
+      <h1 style={{ ...headInit, background: header }}>List of Facts</h1>
+      <ul className='a'>
+        <li className='li'>{data.fact}</li>
+        </ul>
       <div className='center'>
         <button className='button' style={{ background: btcolor }} onClick={() => { fetchData(); changeColor(); changeBorder(); headerChange()}}>Click Me</button>
         </div>

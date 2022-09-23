@@ -36,8 +36,14 @@
     transform: rotate(360deg);
   }
 }
+ul.a {
+  list-style-position: outside;
+}
+
 .li {
   vertical-align: top;
+  margin: 2%;
+  text-align: left;
 }
 .center {
   display: flex;
