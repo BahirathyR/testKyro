@@ -56,11 +56,11 @@ ul.a {
   color: azure;
   width: 10%;
   height: 20%;
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 .container {
-  height: 200px;
+  height: 750px;
   width:90%;
   margin: 5%;
   position: relative;
